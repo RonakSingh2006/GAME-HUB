@@ -13,10 +13,10 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 # Games
 It have 6 games 
--> Flappy Bird
--> Chrome Dino
--> Brick Breaker
--> Snake
--> Tik Tak Toe
--> Ping Pong
+- `Flappy Bird`
+- `Chrome Dino`
+- `Brick Breaker`
+- `Snake`
+- `Tik Tak Toe`
+- `Ping Pong`
 

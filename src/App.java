@@ -1,16 +1,14 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-// import com.mysql.cj.jdbc.Driver;
-
 
 import login.Login;
 
 public class App{
     public static void main(String args[]){
-        String url = "jdbc:mysql://127.0.0.1:3306/gamehub";
+        String url = "/gamehub"; // You jdbc Connection String of mysql example jdbc:mysql://127.0.0.1:3306/?user=root change ?user=root to gamehub
         String username = "root";
-        String password = "Ronak@2006";
+        String password = "password"; // your mysql password
         Connection con;
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
